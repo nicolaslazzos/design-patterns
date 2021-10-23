@@ -1,0 +1,24 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Common design patterns implementations.",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaslazzos/design-patterns.git"
+  },
+  "author": "Nicolas Lazzos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolaslazzos/design-patterns/issues"
+  },
+  "homepage": "https://github.com/nicolaslazzos/design-patterns#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
