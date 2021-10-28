@@ -1,25 +1,8 @@
-// FACTORY METHOD
-
-/*
-replace direct object construction calls with calls to a spacial "factory" method
-objects returned by a "factory" method are often called "products"
-the class that declares the "factory" method is often called "creator"
-a subclass can override that method to return their own type of "products"
-the "products" should have a common base class or "interface"
-that "interface" would also be the return type of the "factory" method
-*/
+// FACTORY METHOD EXAMPLE
 
 // the "creator" class
 abstract class Dialog {
-  // the "creator" class does not necessary has to be abstract
-
   // COMMON DIALOG LOGIC HERE
-
-  /*
-  the creator's primary responsibility isn't creating "products"
-  it usually contains some core business logic and uses the "factory"
-  method to decouple that logic from the concrete products
-  */
 
   private closeDialog(): void {
     // logic to close the dialog
