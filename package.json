@@ -4,7 +4,8 @@
   "description": "Common design patterns implementations.",
   "main": "index.ts",
   "scripts": {
-    "factory-method": "ts-node ./src/factory-method/index.ts"
+    "factory-method": "ts-node ./src/creational/factory-method/index.ts",
+    "abstract-factory": "ts-node ./src/creational/abstract-factory/index.ts"
   },
   "repository": {
     "type": "git",

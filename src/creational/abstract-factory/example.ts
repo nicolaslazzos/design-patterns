@@ -1,14 +1,4 @@
-// ABSTRACT FACTORY
-
-/*
-when you have to create a "family" of related "products" and you also have family "variants"
-we want to define an "interface" for each distinct "product" of the "family" (eg, if the family is "furniture", the products can be a sofa, a chair, a table, etc)
-each variant of a "product" should implement those "interfaces"
-the "abstract factory" would be an interface with a "factory method" for each distinct "product" of a "family"
-the return type of each method should be the "interface" of the corresponding "product"
-then we should implement a "factory" for each "family variant" based on the "abstract factory" interface
-the client code works with both "factories" and "products" through their abstract interfaces
-*/
+// ABSTRACT FACTORY EXAMPLE
 
 () => {
   // the "abstract factory" class that creates "products" of the same "family"

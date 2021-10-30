@@ -72,15 +72,16 @@ class ConcreteProduct2 implements Product {
 const clientCode = (creator: Creator) => {
   // the client code can work with any instance of a concrete "creator" that follows the "creator" interface
 
-  console.log("Client: I'm not aware of the creator's class, but it still works.");
+  console.log("Client: I'm not aware of the creator's class, but it still works");
   console.log(creator.someOperation());
 };
 
-console.log("Using ConcreteCreator1.");
+console.log("Using ConcreteCreator1");
 clientCode(new ConcreteCreator1());
+
 console.log("");
 
-console.log("Using ConcreteCreator2.");
+console.log("Using ConcreteCreator2");
 clientCode(new ConcreteCreator2());
 
 // ref: https://refactoring.guru/design-patterns/factory-method
