@@ -10,6 +10,8 @@ then we should implement a "factory" for each "family variant" based on the "abs
 the client code works with both "factories" and "products" through their abstract interfaces
 */
 
+// one concrete factory for each variant and one product interface for each product type
+
 (() => {
   // the "abstract factory" class that declares "factory methods" that returns different abstract "products"
   abstract class AbstractFactory {
