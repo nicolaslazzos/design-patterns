@@ -131,6 +131,7 @@ class Application {
     const carBuilder = new CarBuilder();
 
     const director = new Director(carBuilder);
+    // construct a sport car
     director.constructSportCar();
 
     const car: Car = carBuilder.getResult();
@@ -138,6 +139,7 @@ class Application {
     const manualBuilder = new ManualBuilder();
 
     director.setBuilder(manualBuilder);
+    // construct the manual for the sport car
     director.constructSportCar();
 
     const manual: Manual = manualBuilder.getResult();
