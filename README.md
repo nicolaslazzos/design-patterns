@@ -6,6 +6,7 @@ Common design patterns implementations with javascript.
 | :----------------: | :--------: | :--------: |
 |  `factory-method`  |            |            |
 | `abstract-factory` |            |            |
+|     `builder`      |            |            |
 
 ## How to Run
 
