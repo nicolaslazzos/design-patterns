@@ -1,4 +1,4 @@
-Common design patterns implementations with javascript.
+Common design patterns implementations with TypeScript.
 
 ## Patterns
 
@@ -7,6 +7,7 @@ Common design patterns implementations with javascript.
 |  `factory-method`  |            |            |
 | `abstract-factory` |            |            |
 |     `builder`      |            |            |
+|     `protoype`     |            |            |
 
 ## How to Run
 
