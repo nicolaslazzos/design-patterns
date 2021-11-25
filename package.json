@@ -7,7 +7,8 @@
     "factory-method": "ts-node ./src/creational/factory-method/index.ts",
     "abstract-factory": "ts-node ./src/creational/abstract-factory/index.ts",
     "builder": "ts-node ./src/creational/builder/index.ts",
-    "prototype": "ts-node ./src/creational/prototype/index.ts"
+    "prototype": "ts-node ./src/creational/prototype/index.ts",
+    "singleton": "ts-node ./src/creational/singleton/index.ts"
   },
   "repository": {
     "type": "git",
