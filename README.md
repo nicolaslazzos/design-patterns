@@ -7,7 +7,8 @@ Common design patterns implementations with TypeScript.
 |  `factory-method`  |            |            |
 | `abstract-factory` |            |            |
 |     `builder`      |            |            |
-|     `protoype`     |            |            |
+|    `prototype`     |            |            |
+|    `singleton`     |            |            |
 
 ## How to Run
 
